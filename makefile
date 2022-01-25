@@ -13,4 +13,4 @@ algo.o: algo.cpp
 	$(CC) $(CFLAGS) algo.cpp 
 
 clean:
-		rm -rf *.o main algo
+	rm -rf *.o main algo
