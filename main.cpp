@@ -13,7 +13,9 @@ int main()
 
     //bubbleSort(arr,size);
 
-    insertionSort2(arr,size);
+    //insertionSort2(arr,size);
+
+    selectionSort(arr, size);
 
     cout << "After sorting: "<< endl;
     printArray(arr,size);

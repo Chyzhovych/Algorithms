@@ -10,6 +10,8 @@ void insertionSort(int *arr, int arr_size);
 
 void insertionSort2(int *arr, int arr_size);
 
+void selectionSort(int *arr, int arr_size);
+
 void printArray(int *arr, int arr_size);
 
 

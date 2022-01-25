@@ -70,6 +70,21 @@ void insertionSort2(int *arr, int arr_size)
     }
 }
 
+void selectionSort(int *arr, int arr_size)
+{
+    for (int i = 0; i < arr_size-1; i++)
+    {
+        int min_index = i;
+        for (int j = i+1; j < arr_size; j++)
+        {
+            if(arr[j] < arr[min_index])
+                min_index = j;
+        }
+
+        swap(&arr[min_index],&arr[i]);
+    }
+}
+
 void swap(int *val, int *val2)
 {
     int temp = *val;

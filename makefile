@@ -9,8 +9,8 @@ main: main.o algo.o
 main.o: main.cpp
 	$(CC) $(CFLAGS) main.cpp
 
-algo.o: algo.cpp algo.hpp
-	$(CC) $(CFLAGS) algo.cpp algo.hpp
+algo.o: algo.cpp
+	$(CC) $(CFLAGS) algo.cpp 
 
 clean:
 		rm -rf *.o main algo
